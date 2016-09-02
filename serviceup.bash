@@ -2,7 +2,7 @@
 
 # This software has no licence.
 # There is no court to appeal for intellectual property rights in the Darknet.
-# This is by Cyrus the Great <cyrus_the_great@lelantos.org>
+# This is by John Tate <john@johntate.org>
 #
 # Version 0.3, featuring tcp, udp, and sound.
 #
@@ -110,7 +110,7 @@ fi
 proto=$1
 service=$2
 
-echo "Cyrus the Great's great service checker."
+echo "John Tate's great service checker."
 echo "Checking for $service via $proto every $wait seconds"
 
 if [ $wait == "0" ]; then
